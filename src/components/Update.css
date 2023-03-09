@@ -1,0 +1,47 @@
+.sign-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sign-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  }
+  
+  .sign-input {
+  width: 100%;
+  margin: 5px 0px 10px 0px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  }
+
+.update-button {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.update-button:hover {
+  background-color: #e63f00;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
